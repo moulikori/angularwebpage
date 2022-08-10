@@ -1,0 +1,15 @@
+<h1>Products</h1>
+<div class="container mt-3 mb-3">
+    <div class="row">
+        <div class="col-lg-4" *ngFor="let fd of productDetials">
+            <div class="productbox">
+                <img src="{{fd.thumbnail}}">
+                <h1>{{fd.title}}</h1>
+                <p>{{fd.price | currency:'USD'}} </p>
+                
+                <a class="buybtn" [routerLink]="['/product',fd.id]">Buy Now</a>
+            </div>
+
+        </div>  
+    </div>
+</div>

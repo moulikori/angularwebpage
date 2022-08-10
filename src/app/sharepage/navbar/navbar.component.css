@@ -1,0 +1,9 @@
+.navbar navbar-expand-lg navbar-light bg-light.active-link
+{
+    color: rgb(27, 198, 104);
+    font-weight: bold;
+}
+.navbar-brand
+{
+    font-size: 40px;
+}
